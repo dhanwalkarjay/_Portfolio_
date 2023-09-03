@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JD portfolio</title>
+    <link rel="icon" type="image/png" href="images\logo.png"/>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/3aed440e88.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+   <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images\logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Certificate</a></li>
+                <li><a href="#portfolio">Work</a></li>
+                <li><a href="#contact">Contact me</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>I'm computer science student passionate about programming and design.</p>
+            <h1>Hi, It's me <span>Jay</span></h1>
+        </div>
+    </div>
+   </div> 
+<!-- About section -->
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images\my.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p> My self Jay Dhanwalkar. I'm an BCA Graduate from Sardar Patel 
+                    College Computer Science Department.
+                    I was born and raised in Warora, Chandrapur, Maharashtre.                    
+                    I did 12th in Computer Science from Lokmanya Junior College,
+                    Nagpur Board.
+                    I like to draw sketches as well as exploring. I believe travelling 
+                    gives you a new perspective to everything. You get to know a lot 
+                    about the different cultures, the cuisines, their history, the
+                    language and all the small unique things every place has to offer.</p>
+                
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web</li>
+                            <li><span>JAVA,C/C++</span><br>Designing Application</li>
+                            <li><span>DSA</span><br>Data Structures And Algorithm</li>
+                        </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2018 - 2023</span><br>Designing web</li>
+                            <li><span>2020 - 2023</span><br>College Project</li>
+                        </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020 - 2023</span><br>Bachlore Of Computer Application</li>
+                            <li><span>2018 - 2020</span><br>Computer Science</li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Certificate</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Google Kick Start</h2>
+                <p>
+                    Participating in the Google Kick Start program is an exhilarating
+                    experience that challenges your problem-solving skills and coding
+                    abilities. The competition-style format, with its series of online
+                    rounds, allows you to tackle real-world programming problems and 
+                    compete with talented developers from around the globe.
+                </p>
+                <a href="https://drive.google.com/file/d/1AEEra9Pt1-V4jiJdqgvTtKKf6UtSykLf/view?usp=sharing"><u>To view</u></a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>GDSC WOW</h2>
+                <p>
+                    Participating in the Google Developer Student Clubs (GDSC) WOW 
+                    program is an incredible opportunity for students to enhance their
+                    technical skills and collaborate with like-minded peers. Through 
+                    workshops, coding challenges, and mentorship, participants get 
+                    hands-on experience with Google technologies.
+                </p>
+                <a href="https://drive.google.com/file/d/1AICWspJUV_vB0s0RxF8dVmIKSbrKfGs2/view?usp=sharing"><u>To View</u></a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Goldman Sachs Software Engineer Virtual Experience Program</h2>
+                <p>
+                    The Goldman Sachs Software Engineer Virtual Experience Program is a 
+                    unique opportunity for aspiring software engineers to gain practical
+                    skills and insights into the world of finance and technology.
+                </p>
+                <a href="https://drive.google.com/file/d/1E-TmHaBH2kbR5Wv1X_gD_R20sfBST1Jy/view?usp=sharing"><u>To view</u></a>
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <!-- work -->
+
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work.png">
+                <div class="layer">
+                    <h3>To-DO List</h3>
+                    <p>A to-do list is a powerful tool that helps us stay organized and
+                       focused on our tasks. By jotting down our responsibilities and 
+                       goals, we can prioritize and track our progress, leading to increased
+                       productivity and a sense of accomplishment.</p>
+                    <a href="https://check-item.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+   </div>
+
+
+
+   <!-- contact me -->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>jaydhanwalkar123@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+91 8805470370</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/jay-dhanwalkar-775058233/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/dhanwalkarjay"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://instagram.com/jaydhanwalkar?igshid=NGExMmI2YTkyZg%3D%3D"><i class="fa-brands fa-instagram"></i></a>
+                    <!-- <a href=""><i class="fa-brands fa-"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a> -->
+                </div>
+                <a href="JayCV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Enter Your Name" required>
+                    <input type="email" name="email" placeholder="Enter Your E-mail" required>
+                    <textarea name="Message" rows="6" placeholder="Enter Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Jay.<i class="fa-solid fa-heart"></i> Made by Jay Dhanwalkar</p>
+    </div>
+   </div>
+
+
+   <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+    }
+   </script>
+
+   <script>
+    
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+    
+
+   </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzn1vLQOhE6Lr2bCNSHd_4_PeTsRGpKi5a9v4oc1E0YQri6ezTj2Vlic7P4bH1ldW_eNg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
